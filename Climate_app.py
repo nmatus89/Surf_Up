@@ -42,7 +42,8 @@ def precipitation():
         all_precipitation.append(precip_dict)
 
     return jsonify(all_precipitation)
-	
+
+    	
 @app.route("/api/v1.0/stations")
 def stations():
     """Return the JSON representation of your dictionary."""
